@@ -83,7 +83,7 @@
                 <div class="input-group">
                   <input type="text" placeholder="youremail@mail.com" class="form-control">
                   <span class="input-group-btn">
-                    <button class="btn btn-primary" type="submit">Subscribe</button>
+                    <button class="btn btn-primary" type="submit">Subscribe for latest update</button>
                   </span>
                 </div>
               </form>
