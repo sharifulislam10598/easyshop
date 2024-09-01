@@ -1,0 +1,254 @@
+.active{
+    text-decoration: underline;
+  }
+
+
+
+
+.invoice{
+    width: 100%;
+    /* overflow-y: scroll; */
+    scrollbar-width: none;
+}
+
+.invoice .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: #acacf3;
+    margin-bottom: 50px;
+   
+}
+.invoice .header .header-title{
+    flex: 1;
+    text-align: center;
+    margin-left: 50px;
+}
+.invoice .header h3{
+    font-size: 33px;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 0;
+}
+.invoice .header .print-btn{
+    margin-right: 30px;
+}
+
+
+.invoice .company-info{
+    width: 350px;
+    text-align: center;
+    line-height: 28px;
+     margin: 0 auto 20px;   
+}
+hr{
+    width: 100%;
+    height: 1px;
+    background: #555;
+    margin-bottom: 20px;
+    
+}
+.invoice .company-info h2{
+    font-size: 37px;
+    color: #acacf3;
+    margin-bottom: 17px;
+}
+.invoice-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 20px;
+}
+.invoice-info .left-col{
+    text-align: left;
+    line-height: 28px;
+}
+.invoice-info .left-col h5{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.invoice-info .right-col{
+    text-align: right;
+    line-height: 28px;
+}
+.invoice-info .right-col h5{
+    text-transform: uppercase;
+    font-size: 15px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+.table-data table .t-head{
+    background: #52526a;
+    border-bottom: none;
+}
+.table-data table th{
+    text-align: right;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px 0;
+}
+.table-data table th:last-child{
+    padding-right: 40px;
+}
+.table-data table th:first-child{
+    padding-left: 40px;
+}
+.table-data table .left{
+    text-align: left;
+}
+.table-data table td{
+    text-align: right;
+    color: black;
+    padding: 20px 0;
+}
+.table-data table td:last-child{
+    padding-right: 40px;
+}
+.table-data table td:first-child{
+    padding-left: 40px;
+}
+.table-data table tr{
+    border-bottom: 2px solid #55555563;
+}
+.total-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    margin-bottom: 100px;
+}
+
+.total-info .left-col{
+    text-align: left;
+    
+}
+.total-info .left-col h3{
+    margin-bottom: 10px;
+}
+.total-info .right-col table{
+    width: 350px;
+}
+.total-info .right-col table td{
+    padding-bottom: 18px;
+}
+.total-info .right-col table td:last-child{
+    text-align: right;
+    
+}
+.total-info .right-col table tr:last-child{
+    border-top: 2px solid #55555563;
+    padding-top: 30px;
+}
+.total-info .right-col table tr:last-child td{
+    padding-top: 10px;
+}
+table tr th {
+    text-align: center;
+}
+/* --------------------address book css-------------------------- */
+.address-book-data table th{
+    text-align: center;
+}
+.address-book-data table td{
+    text-align: center;
+}
+
+.popup-address-book{
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    transition: transform 0.5s,width 0.5s;
+    visibility: hidden;
+    overflow: hidden;
+}
+
+.popup-address-book .address-book{
+    padding: 25px;
+    overflow-y: scroll;
+    width: 100%;
+    height: 77vh;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.open-address-modify{
+    width: 70%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(.95);
+    visibility: visible;
+
+}
+.remove-popup-address-book{
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(0);
+}
+.close-address{
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+  
+/* --------------------return request page---------------------- */
+.return-page{
+    text-align: center;
+}
+
+.return-page table th{
+    text-align: center;
+}
+.return-page table th:first-child{
+    padding-right: 10px;
+}
+.return-page table td{
+    text-align: center;
+}
+.return-page table img{
+    width: 60px;
+}
+.plus-btn{
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+}
+.plus-btn button{
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+.plus-btn img{
+    width: 50px;
+    border-radius: 50%;
+
+}
+.return-container{
+    width: 80%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    transition: transform 0.5s,width 0.5s;
+    visibility: visible;
+    overflow: hidden;
+}
+.return-wrapper{
+padding: 25px;
+overflow-y: scroll;
+width: 100%;
+height: 77vh;
+overflow-y: scroll;
+scrollbar-width: none;
+}

@@ -1,0 +1,20 @@
+{
+    "name": "vendor/packages",
+    "autoload": {
+        "psr-4": {
+            "Vendor\\Packages\\": "src/"
+        },
+        "classmap": [
+            "classes"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Mehedi Hasan Mondol",
+            "email": "mehedihasanmondol.online@gmail.com"
+        }
+    ],
+    "require": {
+        "rakit/validation": "^1.4"
+    }
+}
