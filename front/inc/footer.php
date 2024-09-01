@@ -115,7 +115,7 @@
           <!-- END PAYMENTS -->
           <!-- BEGIN POWERED -->
           <div class="col-md-4 col-sm-4 text-right">
-            <p class="powered">Powered by: <a href="http://www.keenthemes.com/">KeenThemes.com</a></p>
+            <p class="powered">Powered by: <a href="http://www.keenthemes.com/">shorifulislam.com</a></p>
           </div>
           <!-- END POWERED -->
         </div>
