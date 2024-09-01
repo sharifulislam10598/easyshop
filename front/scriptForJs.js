@@ -70,7 +70,7 @@ jQuery(document).ready(function () {
           totalPrice = totalPrice + (item['quantity'] * item['price']);
         });
         $('#topCartContainer').html(htmlContent);
-        $('.top-cart-product-count').html(productCount + ' items');
+        $('.top-cart-product-count').html(productCount + ' products');
         $('.top-cart-total-price').html('$ ' + totalPrice);
       },
       error: function (error) {
