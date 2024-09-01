@@ -101,7 +101,7 @@
         <div class="row">
           <!-- BEGIN COPYRIGHT -->
           <div class="col-md-4 col-sm-4 padding-top-10">
-            2015 © Keenthemes. ALL Rights Reserved. 
+            2015 © Keenthemes. ALL Rights Reserved. and developed by shoriful
           </div>
           <!-- END COPYRIGHT -->
           <!-- BEGIN PAYMENTS -->

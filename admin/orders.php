@@ -9,7 +9,7 @@ $order_data = new Order();
   <div class="content-wrapper">
     <div class="page-header">
       <h3 class="page-title">
-        Orders
+        Order list
       </h3>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
