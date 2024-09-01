@@ -29,7 +29,7 @@ $order_data = new Order();
                     <tr>
                       <th class="sortStyle">SL<i class="fa fa-angle-down"></i></th>
                       <th class="sortStyle">Order id<i class="fa fa-angle-down"></i></th>
-                      <th class="sortStyle">Quantity<i class="fa fa-angle-down"></i></th>
+                      <th class="sortStyle">Qnt<i class="fa fa-angle-down"></i></th>
                       <th class="sortStyle">Total<i class="fa fa-angle-down"></i></th>
                       <th class="sortStyle">Date<i class="fa fa-angle-down"></i></th>
                       <th class="sortStyle">Actions<i class="fa fa-angle-down"></i></th>
